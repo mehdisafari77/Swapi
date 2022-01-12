@@ -11,16 +11,16 @@ function btnClicked(){
         console.log(residents[i]);
         let name = res.data.name
 
-        let h2 = document.createElement("h3") //create h2
-        var text = document.createTextNode(name); //create text
+        let h2 = document.createElement("h2")
+        var text = document.createTextNode(name);
 
-        h2.appendChild(text);  //add text to h2
+        h2.appendChild(text);
         
-        let div = document.createElement("div") //create div
+        let div = document.createElement("div")
         div.className = "name-container"
-        div.appendChild(h2) //add h2 to div
+        div.appendChild(h2)
 
-        document.body.appendChild(div) //add div to body
+        document.body.appendChild(div)
         }     
       )
     }

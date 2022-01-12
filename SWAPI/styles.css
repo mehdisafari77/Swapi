@@ -1,14 +1,14 @@
 body{
-    background-color: black;
-    color: white;
+    background-color: rgb(209, 204, 204);
+    color: rgb(29, 13, 177);
     display: flex;
     justify-content: space-around;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Times New Roman', Times, serif;
     flex-wrap: wrap;
   }
   
-  .button-container{
-    background-color: #52057B;
+  .btn-container{
+    background-color: #7dbbe4;
     height: 25rem;
     display: flex;
     justify-content: center;
@@ -23,14 +23,15 @@ body{
   }
   
   button{
-    background-color: #892CDC;
+    background-color: #4379dd;
     padding: 1.75rem;
     font-size: 3rem;
     border-style: none;
     color: white;
-    border-radius: 15px;
+    border-radius: 20px;
+    box-shadow: 3px 3px blue;
   }
   
   button:hover{
-    background-color: #BC6FF1;
+    background-color: #6f98f1;
   }
